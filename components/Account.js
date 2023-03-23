@@ -1,5 +1,5 @@
-import React, { useState, useEffect} from "react";
-import { StyleSheet, View, ScrollView, Text} from "react-native";
+import React, { useState, useEffect } from "react";
+import { StyleSheet, View, ScrollView, Text } from "react-native";
 import { useNavigation } from '@react-navigation/native';
 
 //import {getItemFromAsyncStorage, mergeItemInAsyncStorage, deleteItemFromAsyncStorage} from './AsyncStorageMethods'
@@ -27,8 +27,8 @@ const styles = StyleSheet.create({
         paddingTop: 44,
     },
     center: {
-      alignItems: 'center',
-      justifyContent: 'center',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     imageView: {
         flexDirection: 'row',
